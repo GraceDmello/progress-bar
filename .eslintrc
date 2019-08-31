@@ -1,0 +1,18 @@
+{
+  "extends": ["eslint:recommended", "airbnb-base", "plugin:prettier/recommended"],
+  "plugins": ["filenames", "import", "no-only-tests", "prettier"],
+  "env": {
+    "es6": true,
+    "jest": true,
+    "mocha": true,
+    "node": true
+  },
+  "rules": {
+    "no-console": 0,
+    "no-underscore-dangle": 0,
+    "import/order": 0,
+    "prefer-destructuring": 0,
+    "class-methods-use-this": 0,
+    "no-only-tests/no-only-tests": "error"
+  }
+}
